@@ -1,13 +1,13 @@
 {
 			"emailBlank" : "",
-			"newEmail" : "ray15@acme.com",
+			"newEmail" : "ray20@acme.com",
 			"sameEmail" : "ray9@acme.com", 
 			"invalidEmail" : "1234@att", 
 			
 			
 			"usernameBlanck" : "", 			
 			"sameUsername" : "ray9", 
-			"newUsername" : "ray15", 
+			"newUsername" : "ray20", 
 			"username" : "ray10", 
 			
 			"passwordBlanck" : "",

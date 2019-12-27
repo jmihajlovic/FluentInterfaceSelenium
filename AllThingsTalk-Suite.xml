@@ -9,13 +9,11 @@
 
  <test name="All Things Talk Test Cases - Sign Up">
 		<classes>
-			<class name="AllThingsTalk.pages.signUp.SignUpTests"/>	
-			<class name="AllThingsTalk.pages.login.LoginTests"/>	
-			<class name="AllThingsTalk.pages.newEmployee.NewEmployeeTests"/>				
+			<class name="AllThingsTalk.pages.signUp.SignUpTests"/>			
 		</classes>
 	</test> 
 	
-	<!--  <test name="All Things Talk Test Cases - Login">
+	 <test name="All Things Talk Test Cases - Login">
 		<classes>
 			<class
 				name="AllThingsTalk.pages.login.LoginTests">				
@@ -29,5 +27,5 @@
 				name="AllThingsTalk.pages.newEmployee.NewEmployeeTests">				
 			</class>
 		</classes>
-	</test>  -->	
+	</test> 	
 </suite>

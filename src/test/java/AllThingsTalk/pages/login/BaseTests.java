@@ -16,12 +16,12 @@ import org.testng.annotations.BeforeSuite;
 import AllThingsTalk.AllThingsTalk.LoginRegistrationData;
 
 public class BaseTests {
-	WebDriver driver;
+	WebDriver driver = null;
 	WebDriverWait wait;
 	LoginActions login; 
 	public LoginRegistrationData data;
 
-	@BeforeClass
+	@BeforeSuite
 
 	public void startBrowser() {
 		driver = getChromeDriver();
@@ -42,7 +42,7 @@ public class BaseTests {
 		}
 	}
 
-	@AfterClass(alwaysRun = true)
+	@AfterSuite(alwaysRun = true)
 	public void closeBrowser() {
 		driver.quit();
 	}

@@ -2,9 +2,8 @@ package AllThingsTalk.pages.signUp;
 
 import static AllThingsTalk.AllThingsTalk.DriverFactory.getChromeDriver;
 import static AllThingsTalk.AllThingsTalk.DriverFactory.getWebDriverWait;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.containsString;
+import static org.testng.Assert.assertTrue;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,7 +24,7 @@ public class SignUpVerify {
 		allBlankErrorMessage = driver.findElement(By.className("modal")); 	
 		closeErrorMessage = driver.findElement(By.className("close")); 
 		String textOfErrorMessge = allBlankErrorMessage.getText();
-		assertThat(textOfErrorMessge, containsString(errorMessage));
+		assertTrue(textOfErrorMessge.contains(errorMessage));
 		
 		closeErrorMessage.click();
 		return this; 
@@ -35,7 +34,7 @@ public class SignUpVerify {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("all-employees-text")));
 		allEmployees = driver.findElement(By.className("all-employees-text")); 
 		String confiramtion = allEmployees.getText(); 
-		assertThat(confiramtion, containsString("All Employees"));		
+		assertTrue(confiramtion.contains("All Employees"));		
 		return this; 
 	}
 	

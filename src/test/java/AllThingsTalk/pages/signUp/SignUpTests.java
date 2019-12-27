@@ -1,14 +1,18 @@
 package AllThingsTalk.pages.signUp;
 
 import org.testng.annotations.Test;
+
+import AllThingsTalk.pages.login.LoginPageObject;
 import AllThingsTalk.pages.signUp.SignUpPageObject;
 
+import static AllThingsTalk.pages.login.LoginPageObject.getLoginPageObject;
 import static AllThingsTalk.pages.signUp.SignUpPageObject.getSignUpPage;
 
 
 public class SignUpTests extends BaseTests{
 
 	SignUpPageObject signUp = getSignUpPage(); 
+	LoginPageObject login = getLoginPageObject(); 	
 	
 	@Test(description = "Verify that all fields are mandatory.", priority = 1)
 	public void allFieldsAreBlank() {
@@ -68,6 +72,7 @@ public class SignUpTests extends BaseTests{
 					.sendKeysToUsername(data.newUsername)
 					.sendKeysToPassword(data.newPassword)
 					.clickOnSignUp();
-		signUp.verify().thatCanRegisterNewAccount(); 	
+		signUp.verify().thatCanRegisterNewAccount(); 
+		login.act().clikcOnButton(1); 
 	}
 }

@@ -22,12 +22,12 @@ import AllThingsTalk.pages.login.LoginTests;
 
 public class BaseTests {
 	
-	WebDriver driver;
+	WebDriver driver = null;
 	WebDriverWait wait;
 	public EmployeeData values; 
 	LoginActions loginAction; 
 
-	@BeforeClass
+	@BeforeSuite
 
 	public void startBrowser() {
 		driver = getChromeDriver();
@@ -63,7 +63,7 @@ public class BaseTests {
 		
 	}
 	
-	 @AfterClass(alwaysRun = true)
+	 @AfterSuite(alwaysRun = true)
 	    public void closeBrowser(){
 	        driver.quit();
 	    }

@@ -1,9 +1,9 @@
 package AllThingsTalk.pages.login;
 
+import static org.testng.Assert.assertTrue;
 import static AllThingsTalk.AllThingsTalk.DriverFactory.getChromeDriver;
 import static AllThingsTalk.AllThingsTalk.DriverFactory.getWebDriverWait;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsString;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -29,7 +29,7 @@ public class LoginVerify {
 		allBlankErrorMessage = driver.findElement(By.className("modal")); 	
 		closeErrorMessage = driver.findElement(By.className("close")); 
 		String textOfErrorMessge = allBlankErrorMessage.getText();
-		assertThat(textOfErrorMessge, containsString(errorMessage));
+		assertTrue(textOfErrorMessge.contains(errorMessage));
 		
 		closeErrorMessage.click();
 		return this; 
@@ -39,7 +39,7 @@ public class LoginVerify {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("all-employees-text")));
 		allEmployees = driver.findElement(By.className("all-employees-text")); 
 		String confiramtion = allEmployees.getText(); 
-		assertThat(confiramtion, containsString("All Employees"));		
+		assertTrue(confiramtion.contains("All Employees"));		
 		return this; 
 	}
 }

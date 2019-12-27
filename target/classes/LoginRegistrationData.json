@@ -1,0 +1,18 @@
+{
+			"emailBlank" : "",
+			"newEmail" : "ray15@acme.com",
+			"sameEmail" : "ray9@acme.com", 
+			"invalidEmail" : "1234@att", 
+			
+			
+			"usernameBlanck" : "", 			
+			"sameUsername" : "ray9", 
+			"newUsername" : "ray15", 
+			"username" : "ray10", 
+			
+			"passwordBlanck" : "",
+			"samePassword" : "abcd4321", 	
+			"newPassword" : "abcd43210",
+			"password" : "abcd43210",
+			"invalidPassword" : "test123" 
+}

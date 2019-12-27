@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Things Talk tests">
+
+<listeners>
+		<listener
+			class-name="AllThingsTalk.AllThingsTalk.TestCaseRealTimeReport" />
+	</listeners>
+
+ <test name="All Things Talk Test Cases - Sign Up">
+		<classes>
+			<class name="AllThingsTalk.pages.signUp.SignUpTests"/>	
+			<class name="AllThingsTalk.pages.login.LoginTests"/>	
+			<class name="AllThingsTalk.pages.newEmployee.NewEmployeeTests"/>				
+		</classes>
+	</test> 
+	
+	<!--  <test name="All Things Talk Test Cases - Login">
+		<classes>
+			<class
+				name="AllThingsTalk.pages.login.LoginTests">				
+			</class>
+		</classes>
+	</test> 
+	
+	 <test name="All Things Talk Test Cases - New Employee">
+		<classes>
+			<class
+				name="AllThingsTalk.pages.newEmployee.NewEmployeeTests">				
+			</class>
+		</classes>
+	</test>  -->	
+</suite>

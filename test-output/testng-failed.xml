@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Things Talk tests]">
+  <listeners>
+    <listener class-name="AllThingsTalk.AllThingsTalk.TestCaseRealTimeReport"/>
+  </listeners>
+  <test name="All Things Talk Test Cases - Sign Up">
+    <classes>
+      <class name="AllThingsTalk.pages.signUp.SignUpTests"/>
+      <class name="AllThingsTalk.pages.login.LoginTests"/>
+      <class name="AllThingsTalk.pages.newEmployee.NewEmployeeTests"/>
+    </classes>
+  </test> <!-- All Things Talk Test Cases - Sign Up -->
+  <test name="All Things Talk Test Cases - Sign Up(failed)">
+    <classes>
+      <class name="AllThingsTalk.pages.signUp.SignUpTests">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+          <include name="goToSignUpPage"/>
+        </methods>
+      </class> <!-- AllThingsTalk.pages.signUp.SignUpTests -->
+      <class name="AllThingsTalk.pages.newEmployee.NewEmployeeTests">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="createNewEmployee"/>
+          <include name="deleteEmployee"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- AllThingsTalk.pages.newEmployee.NewEmployeeTests -->
+      <class name="AllThingsTalk.pages.login.LoginTests">
+        <methods>
+          <include name="cannotLoginWithInvalidPassword"/>
+          <include name="canLoginWithUsername"/>
+          <include name="startBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="canLoginWithEmail"/>
+        </methods>
+      </class> <!-- AllThingsTalk.pages.login.LoginTests -->
+    </classes>
+  </test> <!-- All Things Talk Test Cases - Sign Up(failed) -->
+</suite> <!-- Failed suite [All Things Talk tests] -->

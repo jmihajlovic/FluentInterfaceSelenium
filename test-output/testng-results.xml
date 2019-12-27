@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" total="11" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Things Talk tests" duration-ms="7044" started-at="2019-12-27T11:33:28Z" finished-at="2019-12-27T11:33:36Z">
+    <groups>
+    </groups>
+    <test name="All Things Talk Test Cases - Sign Up" duration-ms="7044" started-at="2019-12-27T11:33:28Z" finished-at="2019-12-27T11:33:36Z">
+      <class name="AllThingsTalk.pages.signUp.SignUpTests">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="startBrowser" is-config="true" duration-ms="1140" started-at="2019-12-27T12:33:28Z" finished-at="2019-12-27T12:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="goToSignUpPage" is-config="true" duration-ms="1221" started-at="2019-12-27T12:33:30Z" finished-at="2019-12-27T12:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="allFieldsAreBlank()[pri:1, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="allFieldsAreBlank" duration-ms="453" started-at="2019-12-27T12:33:31Z" description="Verify that all fields are mandatory." finished-at="2019-12-27T12:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFieldsAreBlank -->
+        <test-method status="PASS" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="goToSignUpPage" is-config="true" duration-ms="173" started-at="2019-12-27T12:33:31Z" finished-at="2019-12-27T12:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="canntoRegisterWithSameEmail()[pri:2, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="canntoRegisterWithSameEmail" duration-ms="455" started-at="2019-12-27T12:33:31Z" description="Cannot register with the same email." finished-at="2019-12-27T12:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canntoRegisterWithSameEmail -->
+        <test-method status="PASS" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="goToSignUpPage" is-config="true" duration-ms="145" started-at="2019-12-27T12:33:32Z" finished-at="2019-12-27T12:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="canntoRegisterWithSameUsername()[pri:3, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="canntoRegisterWithSameUsername" duration-ms="427" started-at="2019-12-27T12:33:32Z" description="Cannot register with the same username." finished-at="2019-12-27T12:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canntoRegisterWithSameUsername -->
+        <test-method status="PASS" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="goToSignUpPage" is-config="true" duration-ms="152" started-at="2019-12-27T12:33:33Z" finished-at="2019-12-27T12:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="canntoRegisterWithoutEmail()[pri:4, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="canntoRegisterWithoutEmail" duration-ms="406" started-at="2019-12-27T12:33:33Z" description="Cannot register without email." finished-at="2019-12-27T12:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canntoRegisterWithoutEmail -->
+        <test-method status="PASS" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="goToSignUpPage" is-config="true" duration-ms="146" started-at="2019-12-27T12:33:33Z" finished-at="2019-12-27T12:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="canntoRegisterWithoutPassword()[pri:5, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="canntoRegisterWithoutPassword" duration-ms="387" started-at="2019-12-27T12:33:33Z" description="Cannot register without password." finished-at="2019-12-27T12:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canntoRegisterWithoutPassword -->
+        <test-method status="PASS" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="goToSignUpPage" is-config="true" duration-ms="124" started-at="2019-12-27T12:33:34Z" finished-at="2019-12-27T12:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="registerNewAccount()[pri:6, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="registerNewAccount" duration-ms="709" started-at="2019-12-27T12:33:34Z" description="Can register new account." finished-at="2019-12-27T12:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:AllThingsTalk.pages.signUp.SignUpTests@649bec2e]" name="closeBrowser" is-config="true" duration-ms="1064" started-at="2019-12-27T12:33:34Z" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AllThingsTalk.pages.signUp.SignUpTests -->
+      <class name="AllThingsTalk.pages.login.LoginTests">
+        <test-method status="FAIL" signature="startBrowser()[pri:0, instance:AllThingsTalk.pages.login.LoginTests@693fe6c9]" name="startBrowser" is-config="true" duration-ms="0" started-at="2019-12-27T12:33:36Z" finished-at="2019-12-27T12:33:36Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DT-JMIHAJLOVIC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DT-JMIHAJLOVIC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+	at AllThingsTalk.pages.login.BaseTests.startBrowser(BaseTests.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="SKIP" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.login.LoginTests@693fe6c9]" name="goToSignUpPage" is-config="true" duration-ms="0" started-at="2019-12-27T12:33:36Z" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="SKIP" signature="cannotLoginWithInvalidPassword()[pri:1, instance:AllThingsTalk.pages.login.LoginTests@693fe6c9]" name="cannotLoginWithInvalidPassword" duration-ms="1" started-at="2019-12-27T12:33:36Z" description="Cannot login with invalid password" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cannotLoginWithInvalidPassword -->
+        <test-method status="SKIP" signature="canLoginWithEmail()[pri:2, instance:AllThingsTalk.pages.login.LoginTests@693fe6c9]" name="canLoginWithEmail" duration-ms="1" started-at="2019-12-27T12:33:36Z" description="Can login with email" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canLoginWithEmail -->
+        <test-method status="SKIP" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.login.LoginTests@693fe6c9]" name="goToSignUpPage" is-config="true" duration-ms="0" started-at="2019-12-27T12:33:36Z" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="SKIP" signature="canLoginWithUsername()[pri:2, instance:AllThingsTalk.pages.login.LoginTests@693fe6c9]" name="canLoginWithUsername" duration-ms="1" started-at="2019-12-27T12:33:36Z" description="Can login with username" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canLoginWithUsername -->
+        <test-method status="SKIP" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.login.LoginTests@693fe6c9]" name="goToSignUpPage" is-config="true" duration-ms="0" started-at="2019-12-27T12:33:36Z" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:AllThingsTalk.pages.login.LoginTests@693fe6c9]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-12-27T12:33:36Z" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AllThingsTalk.pages.login.LoginTests -->
+      <class name="AllThingsTalk.pages.newEmployee.NewEmployeeTests">
+        <test-method status="FAIL" signature="startBrowser()[pri:0, instance:AllThingsTalk.pages.newEmployee.NewEmployeeTests@34f5090e]" name="startBrowser" is-config="true" duration-ms="0" started-at="2019-12-27T12:33:36Z" finished-at="2019-12-27T12:33:36Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DT-JMIHAJLOVIC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DT-JMIHAJLOVIC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+	at AllThingsTalk.pages.newEmployee.BaseTests.startBrowser(BaseTests.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="SKIP" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.newEmployee.NewEmployeeTests@34f5090e]" name="goToSignUpPage" is-config="true" duration-ms="0" started-at="2019-12-27T12:33:36Z" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="SKIP" signature="createNewEmployee()[pri:1, instance:AllThingsTalk.pages.newEmployee.NewEmployeeTests@34f5090e]" name="createNewEmployee" duration-ms="0" started-at="2019-12-27T12:33:36Z" description="Can create new employee" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEmployee -->
+        <test-method status="SKIP" signature="deleteEmployee()[pri:2, instance:AllThingsTalk.pages.newEmployee.NewEmployeeTests@34f5090e]" name="deleteEmployee" duration-ms="1" started-at="2019-12-27T12:33:36Z" description="Can delete employee" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method status="SKIP" signature="goToSignUpPage()[pri:0, instance:AllThingsTalk.pages.newEmployee.NewEmployeeTests@34f5090e]" name="goToSignUpPage" is-config="true" duration-ms="0" started-at="2019-12-27T12:33:36Z" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:AllThingsTalk.pages.newEmployee.NewEmployeeTests@34f5090e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-12-27T12:33:36Z" finished-at="2019-12-27T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AllThingsTalk.pages.newEmployee.NewEmployeeTests -->
+    </test> <!-- All Things Talk Test Cases - Sign Up -->
+  </suite> <!-- All Things Talk tests -->
+</testng-results>
